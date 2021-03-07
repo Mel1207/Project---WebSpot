@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 80%;
+.nav-container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.nav-top {
+    padding: 15px 0;
+}
+
+.nav-logo {
+    height: 5vh;
+    width: 150px;
+}
+
+.vh-container {
+    height: 100vh;
+    width: 100%;
 }
