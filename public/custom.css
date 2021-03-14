@@ -52,7 +52,11 @@ footer .container {
 }
 
 .subscribe-label {
-    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    color: #D0D0D0;
 }
 
 .input-email input {
