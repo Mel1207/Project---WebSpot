@@ -44,3 +44,16 @@ footer .container {
     max-width: 90%;
     margin: auto;
 }
+
+.input-email {
+    width: 90%;
+    margin: auto;
+}
+
+.subscribe-label {
+    color: #fff;
+}
+
+.input-email input {
+    width: 100%;
+}
