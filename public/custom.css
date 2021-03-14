@@ -66,5 +66,23 @@ footer .container {
 .input-email button {
     position: absolute;
     right: 0;
-    color: red;
+    height: 70px;
+    background: #FF5D5D;
+    color: #fff;
+    font-size: 25px;
+    width: 400px;
+    border-radius: 72px;
+    font-weight: 400;
+    letter-spacing: .15em;
+}
+
+.input-email .input {
+    height: 70px;
+    padding: 20px 30px;
+    border-radius: 72px;
+}
+
+.input-email .input:focus {
+    border: none;
+    outline: none;
 }
