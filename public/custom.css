@@ -57,3 +57,9 @@ footer .container {
 .input-email input {
     width: 100%;
 }
+
+.input-email button {
+    position: absolute;
+    right: 0;
+    color: red;
+}
