@@ -83,3 +83,12 @@ footer .container {
     border: none;
     outline: none;
 }
+
+footer p {
+    color: #C0C0C0;
+}
+
+.container1 img {
+    width: 300px;
+    height: auto;
+}
