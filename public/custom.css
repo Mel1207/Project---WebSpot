@@ -100,3 +100,28 @@ footer ul li p {
     width: 300px;
     height: auto;
 }
+
+.footer-links {
+    position: relative;
+}
+
+.footer-span {
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.footer-links::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background: #4F4F4F;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-up img {
+    height: 25px;
+    width: auto;
+}
