@@ -36,19 +36,19 @@ body {
     position: relative;
 }
 
-.link::after {
+.nav-links .link a::after {
     content: "";
     position: absolute;
     background: red;
     height: 2px;
     width: 0;
     right: 0;
-    bottom: 0;
-    transition: 0.5s ease-in-out;
+    bottom: -5px;
+    transition: 0.2s ease-in-out;
 }
 
-.link:hover .link::after{
-    width: 30px !important;
+.link:hover a::after {
+    width: 30px;
 }
 
 .link-search a img {
