@@ -92,6 +92,28 @@ body {
     color: #fff;
 }
 
+.section-header {
+    position: relative;
+    width: max-content;
+    /* margin: 8rem auto; */
+}
+
+.section-header p::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 50%;
+    background: #FF5D5D;
+}
+
+
+
+
+
+
+
 footer {
     background: #454545;
     height: 100vh;
