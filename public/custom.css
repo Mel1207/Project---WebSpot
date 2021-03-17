@@ -34,6 +34,12 @@ body {
 
 .nav-links .link {
     position: relative;
+    color: #A9A9A9;
+    transition: 0.3s ease;
+}
+
+.nav-links .link:hover {
+    color: #454545 !important;
 }
 
 .nav-links .link a::after {
@@ -48,7 +54,7 @@ body {
 }
 
 .link:hover a::after {
-    width: 30px;
+    width: 25px;
 }
 
 .link-search a img {
