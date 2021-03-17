@@ -78,6 +78,12 @@ body {
     cursor: pointer;
     font-weight: 600;
     font-size: 20px;
+    transition: 0.2s ease;
+}
+
+.hero-button:hover {
+    background: #FF5D5D;
+    color: #fff;
 }
 
 footer {
