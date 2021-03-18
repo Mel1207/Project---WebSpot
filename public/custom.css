@@ -92,19 +92,30 @@ body {
     color: #fff;
 }
 
-.section-header {
+.section-header, .section-header-negative {
     position: relative;
     width: max-content;
     /* margin: 8rem auto; */
 }
 
-.section-header p::after {
+.section-header-negative {
+    color: #fff;
+}
+
+.section-header p::after, .section-header-negative p::after {
     content: "";
     position: absolute;
     right: 0;
     bottom: -10px;
     height: 2px;
     width: 50%;
+}
+
+.section-header-negative p::after {
+    background: #454545 !important;
+}
+
+.section-header p::after {
     background: #FF5D5D;
 }
 
