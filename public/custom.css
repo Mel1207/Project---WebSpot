@@ -198,6 +198,7 @@ footer ul li p {
 .footer-span {
     color: #5c5c5c;
     font-size: 18px;
+    padding: 20px;
 }
 
 .footer-links::after {
