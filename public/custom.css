@@ -123,6 +123,14 @@ body {
     line-height: 20px;
 }
 
+.client-name {
+    font-size: 30px;
+}
+
+.client-position {
+    color: #9A9A9A;
+}
+
 .client-company {
     color: #FF5D5D;
 }
