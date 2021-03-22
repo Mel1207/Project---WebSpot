@@ -75,23 +75,25 @@
         <h2 class="section-header text-3xl font-semibold my-32 mx-auto">
             <p>Our Clients</p>
         </h2>
-        <div class="container flex card-client-slider">
+        <div class="container flex card-client-slider" id="fullPage">
             <div class="w-full">
                 <img src="/public/" alt="Left">
             </div>
-            <div class="w-full flex rounded-md h-full bg-white">
-                <div class="w-1/2 card-left">
-                    <img src="/public/img/img-profile-client-1.png" alt="" class="w-full">
-                </div>
-                <div class="w-1/2 card-right p-10">
-                    <p class="card-comment mb-5">
-                        LoremIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
-                    </p>
-                    <h3 class="client-name font-semibold">John Doe</h3>
-                    <p class="client-position">CEO Developer</p>
-                    <p class="client-company">KONAMI Studios</p>
-                    <br>
-                    <span class="client-happy-tag">#happyClient</span>
+            <div class="slide">
+                <div class="w-full flex rounded-md h-full bg-white">
+                    <div class="w-1/2 card-left">
+                        <img src="/public/img/img-profile-client-1.png" alt="" class="w-full">
+                    </div>
+                    <div class="w-1/2 card-right p-10">
+                        <p class="card-comment mb-5">
+                            LoremIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
+                        </p>
+                        <h3 class="client-name font-semibold">John Doe</h3>
+                        <p class="client-position">CEO Developer</p>
+                        <p class="client-company">KONAMI Studios</p>
+                        <br>
+                        <span class="client-happy-tag">#happyClient</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -116,14 +118,6 @@
             </div>
         </div>
     </div>
-
-    <div class="div-carousel">
-        <div>Lorem ipsum dolor sit amet.</div>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente qui saepe libero reiciendis facilis et.</div>
-        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, minus?</div>
-        <div>Lorem ipsum dolor sit amet.</div>
-    </div>
-
 
     <footer class="h-auto">
         <div class="container">
@@ -180,6 +174,7 @@
     </footer>
 
 
+    <!-- Fullpage Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
     <script src="/public/js/app.js"></script>
 </body>

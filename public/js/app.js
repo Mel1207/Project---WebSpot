@@ -1,3 +1,4 @@
-$(document).ready(function(){
-    $('.div-carousel').slick();
-});
+new fullpage ('#fullPage', {
+    autoScrolling: true,
+    licenseKey: null
+})
