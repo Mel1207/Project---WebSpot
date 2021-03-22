@@ -65,7 +65,7 @@ body {
 .vh-container {
     width: 100%;
     height: auto;
-    line-height: 88px;
+    /* line-height: 88px; */
 }
 
 .hero-text {
@@ -133,6 +133,13 @@ body {
 
 .client-company {
     color: #FF5D5D;
+}
+
+.client-happy-tag {
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 50px;
+    background: #62D767;
 }
 
 
