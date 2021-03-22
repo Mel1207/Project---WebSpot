@@ -1,5 +1,3 @@
 $(document).ready(function(){
-    $('.div-carousel').slick({
-    
-    });
+    $('.div-carousel').slick();
 });
