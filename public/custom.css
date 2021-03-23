@@ -130,9 +130,18 @@ body {
     transition: 0.4s ease;
 }
 
+.project-items .project-name, .project-items .project-date {
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
 .project-list .project-items:hover img {
     transform: scale(1.1);
     opacity: 0.6;
+}
+
+.project-items:hover .project-name, .project-items:hover .project-date {
+    opacity: 1;
 }
 
 .project-name {
