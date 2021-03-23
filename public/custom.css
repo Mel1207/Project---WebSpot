@@ -119,6 +119,22 @@ body {
     background: #FF5D5D;
 }
 
+.project-list .project-items {
+    overflow: hidden;
+    background: #000;
+}
+
+.project-list .project-items img {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+.project-list .project-items img:hover {
+    transform: scale(1.05);
+    opacity: 0.6;
+}
+
 .card-comment {
     line-height: 20px;
 }
@@ -141,11 +157,6 @@ body {
     border-radius: 50px;
     background: #62D767;
 }
-
-
-
-
-
 
 footer {
     background: #454545;
