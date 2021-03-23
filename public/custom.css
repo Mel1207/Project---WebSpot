@@ -135,9 +135,16 @@ body {
     opacity: 0.6;
 }
 
-/* .project-name, .project-date {
-    bottom: 0
-} */
+.project-name {
+    bottom: 20%;
+    left: 20px;
+}
+
+.project-date {
+    bottom: 15%;
+    left: 20px;
+    font-size: 13px;
+}
 
 .card-comment {
     line-height: 20px;
