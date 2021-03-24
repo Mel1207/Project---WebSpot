@@ -130,9 +130,15 @@ body {
     transition: 0.4s ease;
 }
 
-.project-items .project-name, .project-items .project-date {
+.project-items .project-name {
     opacity: 0;
     transition: 0.4s ease;
+}
+
+.project-items .project-date {
+    opacity: 0;
+    transition: 0.4s ease;
+    transition-delay: 0.2s;
 }
 
 .project-list .project-items:hover img.w-full {
