@@ -223,6 +223,11 @@ body {
 }
 
 
+.contact-form input:focus, .contact-form textarea:focus {
+    border: none;
+    outline: none;
+}
+
 .contact-input::placeholder, .contact-area::placeholder {
     color: #fff;
     font-size: 18px;
@@ -230,17 +235,18 @@ body {
 
 .contact-input, .contact-area {
     background: transparent;
+    font-size: 18px;
+    color: #fff;
 }
 
 .contact-input {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #fff !important;
     height: 45px;
 }
 
 .contact-area {
     padding: 15px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #fff !important;
 }
 
 .contact-invitation {
