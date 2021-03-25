@@ -222,6 +222,27 @@ body {
     background:  linear-gradient(304.42deg, #000000 -31.33%, rgba(0, 0, 0, 0.08) 99.3%)
 }
 
+
+.contact-input::placeholder, .contact-area::placeholder {
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact-input, .contact-area {
+    background: transparent;
+}
+
+.contact-input {
+    border-bottom: 2px solid #fff;
+    height: 45px;
+}
+
+.contact-area {
+    padding: 15px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
 .contact-invitation {
     left: 10%;
     bottom: 13%;
