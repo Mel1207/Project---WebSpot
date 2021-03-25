@@ -68,6 +68,10 @@ body {
     /* line-height: 88px; */
 }
 
+.section-hero {
+    margin-top: 10vh;
+}
+
 .hero-text {
     font-size: 75px;
 }
