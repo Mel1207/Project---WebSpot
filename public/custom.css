@@ -203,11 +203,29 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+
+.contact-form {
+    z-index: 2 !important;
+}
+
+.section-contact::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(304.42deg, #000000 -31.33%, rgba(0, 0, 0, 0.08) 99.3%)
 }
 
 .contact-invitation {
-    left: 5%;
-    bottom: 5%;
+    left: 10%;
+    bottom: 13%;
+    z-index: 2;
 }
 
 footer {
