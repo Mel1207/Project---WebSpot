@@ -79,7 +79,7 @@ body {
 }
 
 .hero-text {
-    font-size: 75px;
+    font-size: 65px;
 }
 
 .hero-subtext {
@@ -100,6 +100,16 @@ body {
 .hero-button:hover {
     background: #FF5D5D;
     color: #fff;
+}
+
+.item-box {
+    right: -5%;
+    bottom: 5%;
+}
+
+.item-chair {
+    left: -10%;
+    bottom: 10%;
 }
 
 .section-header, .section-header-negative {
