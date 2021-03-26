@@ -230,7 +230,20 @@ body {
 .contact-form {
     z-index: 2 !important;
     background: #FF5D5D;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
+
+.contact-form .contact-info {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
 
 .section-contact::after {
     content: "";
