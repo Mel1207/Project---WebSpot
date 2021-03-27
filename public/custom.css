@@ -76,6 +76,7 @@ body {
 
 .section-hero {
     margin-top: 10vh;
+    height: 100vh;
 }
 
 .hero-text {
@@ -235,6 +236,39 @@ body {
     align-self: center;
     height: 18px !important;
     width: auto !important;
+}
+
+.section-clients {
+    height: 100vh;
+}
+
+.svg-container {
+    height: 25rem;
+    width: 25rem;
+    background: rgba(255, 93, 93, 0.09);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.item-folder {
+    top: -5em;
+    left: 10em;
+}
+
+.item-statistics {
+    top: 30%;
+    transform: translateY(-50%);
+    left: 18em;
+}
+
+.item-email {
+    top: 55%;
+    left: 23em;
+}
+
+.item-file {
+    bottom: -15%;
+    left: 13em;
 }
 
 .card-comment {
