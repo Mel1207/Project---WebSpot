@@ -105,11 +105,48 @@ body {
 .item-box {
     right: -5%;
     bottom: 5%;
+    animation: bounce-box 4s infinite;
+}
+
+@keyframes bounce-box {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 3rem;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.item-human-table {
+    padding-left: 5em;
 }
 
 .item-chair {
-    left: -10%;
+    left: -7%;
     bottom: 10%;
+    z-index: -1;
+    animation: bounce-chair 5s infinite;
+}
+
+@keyframes bounce-chair {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 5rem;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+
+
+.item-report {
+    right: 0;
 }
 
 .section-header, .section-header-negative {
