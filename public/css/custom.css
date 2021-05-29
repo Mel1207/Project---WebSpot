@@ -480,6 +480,7 @@ footer ul li p {
     z-index: 12;
     transition: 0.3s ease;
     display: none;
+    position: fixed;
 }
 
 .sidenav-overlay.active {
@@ -496,6 +497,7 @@ footer ul li p {
     bottom: 0;
     z-index: 200;
     padding: 1.5em;
+    background: #fff;
 }
 
 
@@ -505,7 +507,6 @@ footer ul li p {
     width: 25px;
     transition: 0.3s ease;
     cursor: pointer;
-    padding: 3px;
 }
 
 .close-icon:hover {
